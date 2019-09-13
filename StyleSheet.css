@@ -1,0 +1,75 @@
+﻿div a:link {
+    color: #898989;
+    text-decoration: none;
+}
+
+/* visited link */
+div a:visited {
+    color: #898989;
+    text-decoration: none;
+}
+
+/* mouse over link */
+div a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+/* selected link */
+div a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#rcorners1 {
+    border-radius: 50%;
+}
+
+.TopBanner {
+    animation: TopBannerSlide 1s normal;
+}
+
+.Content {
+    animation: ContentSlide 1.5s normal;
+}
+
+@keyframes TopBannerSlide {
+    0% {
+        transform: translate(0px, -400px);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        transform: translate(0px, 0px);
+        opacity: 30;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        opacity: 100;
+   
+    }
+}
+
+@keyframes ContentSlide {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 600px);
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        opacity: 20;
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        opacity: 100;
+    }
+}
