@@ -1,135 +1,146 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>Portfolio</title>
 
-    <link href="StyleSheet.css" rel="stylesheet" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <script src="Scripts/jquery-3.0.0.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="portfolioData.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <title>Portfolio</title>
+
+  <link href="StyleSheet.css" rel="stylesheet" />
+  <link href="Content/bootstrap.min.css" rel="stylesheet" />
+  <script src="Scripts/jquery-3.0.0.min.js"></script>
+  <script src="Scripts/bootstrap.min.js"></script>
+  <script src="portfolioData.js"></script>
 
 </head>
 
 <body>
-    <div class="TopBanner">  <!--Nav bar-->
-       
-            <div class="jumbotron text-center">
-                <h1>My portfolio</h1>
-                <p>A collection of projects I have made or worked on</p>
-                <p>2017 - 2019</p>
+  <div class="TopBanner">
+    <!--Nav bar-->
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <a href="index.html"><h4>Home</h4></a>
-                        </div>
+    <div class="jumbotron text-center">
+      <h1>My portfolio</h1>
+      <p>A collection of projects I have made or worked on</p>
+      <p>2017 - 2019</p>
 
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <a href="#"><h4>Portfolio</h4></a>
-                        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="index.html">
+              <h4>Home</h4>
+            </a>
+          </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <a href="ContactMe.html"><h4>Contact</h4></a>
-                        </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="#">
+              <h4>Portfolio</h4>
+            </a>
+          </div>
 
-
-                    </div>
-                </div>
-            </div>
-    </div> <!--END OF NAVBAR-->
-
-
-    <div class="Content">
-        <div class="container shadow">
-            <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="ContactMe.html">
+              <h4>Contact</h4>
+            </a>
+          </div>
 
 
-                <!--YEAR DIVIDER--> 
-                <a name="2017"></a>
-                <div class="padding col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1> < 2017 - 2018 /></h1>
-                </div>     
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END OF NAVBAR-->
 
-                <!--LD40-->
-                <div id="LD40" class="padding col-sm-12 col-md-4 col-lg-6">
-                   <!-- <img src="Images/Portfolio/Project_1.jpg" width="200" height="200" alt="A picture of my Ludem Dare 40 project" /> -->
-                </div>
 
-                <div class="padding col-sm-12 col-md-8 col-lg-6">
-                    <h3>Ludum Dare 40</h3>
-                    
-                    <p>Back in December 2017 I took part in a 48hr Ludum Dare challenge with a friend where the theme was "The more you have, the worse it is".</p>
-                    <p>When the theme was announced we began prioritizing what assets and features we needed more than others and began development.</p>
-                </div>
+  <div class="Content">
+    <div class="container shadow">
+      <div class="row">
 
-                <!--This website-->
-                <div class="padding col-sm-12 col-md-12 col-lg-6">
-                    <a href="https://gyazo.com/93ded188873296d9d5ff71b8820a65c7"><video width="400" autoplay muted loop playsinline><source src="https://i.gyazo.com/93ded188873296d9d5ff71b8820a65c7.mp4" type="video/mp4" /></video></a>
-                </div>
+        <!--YEAR DIVIDER-->
+        <a name="2019"></a>
+        <div class="padding col-12 text-center">
+          <h1>
+            < 2019 />
+          </h1>
+        </div>
 
-                <div class="padding col-sm-12 col-md-12 col-lg-6">
-                    <h3>This Website</h3>
-                    <p>I've always wanted to make my own website, so I decided in November of 2018 to finally bite the bullet and begin to learn HTML, CSS and how to make a responsive webpage.</p>
-                    <p>However, I have ever played around with HTML before in early 2018 but due to college work I was never able to have the time. However, at university I was given a lot of downtime in my first semester and decided to make the most of it.</p>
-                    <p>So far this has been my favorite project to work on.</p>
-                </div>
+        <!--Honeycomb gif -->
+        <div id="Honeycomb" class="padding col-sm-12 col-md-4 col-lg-6">
+          <img src="Images/Portfolio/Honeycomb.gif" alt="Honeycomb gif" width="200" height="200" />
+        </div>
 
-                <!--A* Pathfidning in processing-->
-                <div class="padding col-sm-12 col-md-4 col-lg-6">
-                    <a href="https://gyazo.com/0cd66badd2ec223e0d79411cc185036e"><video width="200" autoplay muted loop playsinline><source src="https://i.gyazo.com/0cd66badd2ec223e0d79411cc185036e.mp4" type="video/mp4" /></video></a>
-                </div>
+        <div class="padding col-sm-12 col-md-8 col-lg-6">
+          <h3>Honeycomb Gif (C++ in OpenGL)</h3>
+          <p>This was a fun project to work on as originally saw a very similar gif while browsing twitter and thought it would be a fun challenge to attempt to re-create it. Unfortunately, I've lost the gif I was inspired by.</p>
+          <p>
+            I created this project as a way to help develop my understanding and further my skills of both C++ and OpenGL.
+          </p>
+        </div>
 
-                <div class="padding col-sm-12 col-md-8 col-lg-6">
-                    <h3>A* Pathfinding (Java)</h3>
-                    <p>I've always had a love for AI and wanted to give it a go making my own AI using A*. The AI is set up to go from the top left corner to the bottom right. <i>Note: the AI has a 50ms delay each move to make it easier to see its steps</i></p>
-                    <p>
-                        <h5><b>Key:</b></h5>
-                        <b>Black squares:</b> Walls<br />
-                        <b>Red squares:</b> Closed set (squares visited)<br />
-                        <b>Green squares:</b> Open set (possible squares to visit)<br />
-                        <b>Blue squares:</b> Best possible path
-                    </p>
-                </div>
 
-                <!--Game Of Life-->
-                <div class="padding col-sm-12 col-md-4 col-lg-6">
-                    <a href="https://gyazo.com/c43f1c711cbb20c02bcd89c5dfe635ca"><video width="200" autoplay muted loop playsinline><source src="https://i.gyazo.com/c43f1c711cbb20c02bcd89c5dfe635ca.mp4" type="video/mp4" /></video></a>
-                </div>
+        <!--YEAR DIVIDER-->
+        <a name="2017"></a>
+        <div class="padding col-sm-12 col-md-12 col-lg-12 text-center">
+          <h1>
+            < 2017 - 2018 />
+          </h1>
+        </div>
 
-                <div class="padding col-sm-12 col-md-8 col-lg-6">
-                    <h3>Game of Life (C++)</h3>
-                    <p>I recreated the well-known simulation called 'Game of Life' by British mathematician, John Conway back in 1970.</p>
-                    <p>I made this because I was still quite new to C++ at the time and the rules of the game seemed simple enough to attempt.</p>
-                    <p>
-                        <b>Those rules being: </b><br />
-                        Any live cell with fewer than two live neighbors dies, as if by underpopulation. <br />
-                        Any live cell with two or three live neighbors lives on to the next generation. <br />
-                        Any live cell with more than three live neighbors dies, as if by overpopulation. <br />
-                        Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. <br />
-                        <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"><i>Wikipedia</i></a>
-                    </p>
-                </div>
+        <!--Game Of Life-->
+        <div class="padding col-sm-12 col-md-4 col-lg-6">
+          <a href="https://gyazo.com/c43f1c711cbb20c02bcd89c5dfe635ca"><video width="200" autoplay muted loop playsinline>
+              <source src="https://i.gyazo.com/c43f1c711cbb20c02bcd89c5dfe635ca.mp4" type="video/mp4" /></video></a>
+        </div>
 
-                
-                <!--YEAR DIVIDER-->
-                <a name="2019"></a>
-                <div class="padding col-12 text-center">
-                    <h1>< 2019 /></h1>
-                </div>
-                
-                <!--Honeycomb gif -->
-                <div id="Honeycomb" class="padding col-sm-12 col-md-4 col-lg-6">
-                    <!--<img src="Images/Portfolio/Honeycomb.gif" alt="Honeycomb gif" width="200" height="200"/>-->
-                </div>
+        <div class="padding col-sm-12 col-md-8 col-lg-6">
+          <h3>Game of Life (C++)</h3>
+          <p>I recreated the well-known simulation called 'Game of Life' by British mathematician, John Conway back in 1970.</p>
+          <p>I made this because I was still quite new to C++ at the time and the rules of the game seemed simple enough to attempt.</p>
+          <p>
+            <b>Those rules being: </b><br />
+            Any live cell with fewer than two live neighbors dies, as if by underpopulation. <br />
+            Any live cell with two or three live neighbors lives on to the next generation. <br />
+            Any live cell with more than three live neighbors dies, as if by overpopulation. <br />
+            Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. <br />
+            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"><i>Wikipedia</i></a>
+          </p>
+        </div>
 
-                <div class="padding col-sm-12 col-md-8 col-lg-6">
-                    <h3>Honeycomb Gif (OpenGL + C++)</h3>
-                    <p>This was a fun project to work on as originally saw a very similar gif while browsing twitter and thought it would be a fun challenge to attempt to re-create it. Unfortunately, I've lost the gif I was inspired by.</p>
-                </div>
 
-                <!--Placeholder 
+        <!--A* Pathfidning in processing-->
+        <div class="padding col-sm-12 col-md-4 col-lg-6">
+          <a href="https://gyazo.com/0cd66badd2ec223e0d79411cc185036e"><video width="200" autoplay muted loop playsinline>
+              <source src="https://i.gyazo.com/0cd66badd2ec223e0d79411cc185036e.mp4" type="video/mp4" /></video></a>
+        </div>
+
+        <div class="padding col-sm-12 col-md-8 col-lg-6">
+          <h3>A* Pathfinding (Java)</h3>
+          <p>I've always had a love for AI and wanted to give it a go making my own AI using A*. The AI is set up to go from the top left corner to the bottom right. <i>Note: the AI has a 50ms delay each move to make it easier to see its steps</i>
+          </p>
+          <p>
+            <h5><b>Key:</b></h5>
+            <b>Black squares:</b> Walls<br />
+            <b>Red squares:</b> Closed set (squares visited)<br />
+            <b>Green squares:</b> Open set (possible squares to visit)<br />
+            <b>Blue squares:</b> Best possible path
+          </p>
+        </div>
+
+
+        <!--This website-->
+        <div class="padding col-sm-12 col-md-12 col-lg-6">
+          <a href="https://gyazo.com/93ded188873296d9d5ff71b8820a65c7"><video width="400" autoplay muted loop playsinline>
+              <source src="https://i.gyazo.com/93ded188873296d9d5ff71b8820a65c7.mp4" type="video/mp4" /></video></a>
+        </div>
+
+        <div class="padding col-sm-12 col-md-12 col-lg-6">
+          <h3>This Website</h3>
+          <p>I've always wanted to make my own website, so I decided in November of 2018 to finally bite the bullet and begin to learn HTML, CSS and how to make a responsive webpage.</p>
+          <p>However, I have ever played around with HTML before in early 2018 but due to college work I was never able to have the time. However, at university I was given a lot of downtime in my first semester and decided to make the most of it.
+          </p>
+          <p>So far this has been my favorite project to work on.</p>
+        </div>
+
+        <!--Placeholder
                  <div class="padding col-sm-12 col-md-4 col-lg-6">
                       <img src="Images/Placeholder.png" alt="Placeholder image" />
                  </div>
@@ -139,11 +150,14 @@
                     <p>Sample Text</p>
                 </div>-->
 
-
-            </div> <!--END OF ROW CLASS-->
-        </div> <!--END OF CONTAINER SHADOW-->
-    </div> <!--END OF CONTENT-->
+      </div>
+      <!--END OF ROW CLASS-->
+    </div>
+    <!--END OF CONTAINER SHADOW-->
+  </div>
+  <!--END OF CONTENT-->
 
 
 </body>
+
 </html>
