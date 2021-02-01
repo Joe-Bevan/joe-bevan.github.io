@@ -73,3 +73,14 @@ div a:active {
     opacity: 100;
   }
 }
+
+.box {
+  margin: auto;
+  width: 600px; 
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
