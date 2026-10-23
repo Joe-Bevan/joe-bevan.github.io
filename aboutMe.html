@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/aboutme.css"/>
+		<title>Joe Bevan — About</title>
+	</head>
+
+	<body>
+		<!-- =========================================
+         NAVIGATION
+    ========================================= -->
+
+		<nav>
+
+			<a href="index.html" class="logo">
+				Joe Bevan
+			</a>
+
+			<ul class="nav-links">
+				<li><a href="index.html">Work</a></li>
+				<li><a href="aboutMe.html" class="active">About</a></li>
+			</ul>
+
+		</nav>
+
+
+		<!-- =========================================
+         HERO
+    ========================================= -->
+
+		<header class="hero">
+
+			<div class="hero-content">
+
+				<div class="eyebrow">
+					01 / Graphics Programmer
+				</div>
+
+				<h1>
+					About
+					<span>Me.</span>
+				</h1>
+
+				<p class="hero-description">
+					I like getting uncomfortably close to the hardware.
+					Rendering, GPU performance, writing platform abstractions, shader compilation and the
+					challenges that appear when you push a rendering
+					pipeline hard are where I feel most at home.
+				</p>
+
+			</div>
+
+		</header>
+
+
+		<main>
+
+
+			<!-- =========================================
+             PHILOSOPHY
+        ========================================= -->
+
+			<section class="philosophy">
+
+				<div class="philosophy-inner">
+
+					<div class="section-number">
+						02 / THE CRAFT
+					</div>
+
+					<h2>
+						Knowing
+						<span>why</span>
+						it works.
+					</h2>
+
+					<p>
+						I enjoy writing pretty shaders and building rendering
+						features, but the part of graphics programming that
+						really hooks me is understanding what happens underneath.
+
+						Stepping through shader assembly. Investigating GPU
+						crashes. Finding a few milliseconds that can be
+						eliminated. Understanding how different platforms behave
+						under the same workload. Writing clean and consistant platform abstractions.
+
+						That low-level side of graphics is where I do my best work.
+					</p>
+
+				</div>
+
+			</section>
+
+
+			<!-- =========================================
+             NUMBERS
+        ========================================= -->
+
+			<div class="numbers">
+
+				<div class="number">
+					<strong>4+</strong>
+					<span>Shipped titles</span>
+				</div>
+
+				<div class="number">
+					<strong>5</strong>
+					<span>Major platforms</span>
+				</div>
+
+				<div class="number">
+					<strong>6</strong>
+					<span>Modern graphics APIs (inc. Console NDA APIs)</span>
+				</div>
+
+			</div>
+
+
+			<!-- =========================================
+             TOOLBOX
+        ========================================= -->
+
+			<section>
+
+				<div class="section-heading">
+
+					<h2>
+						Toolbox
+					</h2>
+
+					<span class="section-number">
+						03
+					</span>
+
+				</div>
+
+
+				<div class="toolbox">
+
+
+					<div class="tool">
+
+						<div class="tool-index">
+							01 / DEBUGGING
+						</div>
+
+						<h3>
+							GPU Debugging
+						</h3>
+
+						<ul class="tool-list">
+							<li>PIX</li>
+							<li>NVIDIA Nsight</li>
+							<li>RenderDoc</li>
+							<li>9<sup>th</sup> generation console graphics debuggers</li>
+							<li>NVIDIA ICAT</li>
+							<li>GPU crash investigation (Nvidia Nsight, AMD RGD, DRED...)</li>
+						</ul>
+
+					</div>
+
+
+					<div class="tool">
+
+						<div class="tool-index">
+							02 / PERFORMANCE
+						</div>
+
+						<h3>
+							Profiling
+						</h3>
+
+						<ul class="tool-list">
+							<li>Superluminal</li>
+							<li>GPU timing, traces & analysis (PIX, Nsight, Console profiling tools)</li>
+							<li>A/B image comparison</li>
+						</ul>
+
+					</div>
+
+
+					<div class="tool">
+
+						<div class="tool-index">
+							03 / DEVELOPMENT
+						</div>
+
+						<h3>
+							Toolchain
+						</h3>
+
+						<ul class="tool-list">
+
+							<li>Visual Studio</li>
+							<li>VS Code</li>
+							<li>Git / Perforce / SVN</li>
+							<li>Sharpmake / Premake</li>
+							<li>TeamCity</li>
+
+						</ul>
+
+					</div>
+
+
+					<div class="tool">
+
+						<div class="tool-index">
+							04 / ENGINEERING
+						</div>
+
+						<h3>
+							Graphics
+						</h3>
+
+						<ul class="tool-list">
+
+							<li>HLSL</li>
+							<li>Physically based rendering</li>
+							<li>Bindless rendering</li>
+							<li>GPU-driven rendering</li>
+							<li>Colour management & OCIO</li>
+							<li>Async compute</li>
+							<li>AMD vs NVIDIA discrepancies</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<!-- =========================================
+             EGGSHELL ENGINE
+        ========================================= -->
+
+			<section>
+
+				<div class="section-heading">
+
+					<h2>
+						Eggshell
+						Engine
+					</h2>
+
+					<span class="section-number">
+						04 / PERSONAL PROJECT
+					</span>
+
+				</div>
+
+
+				<div class="eggshell-intro">
+
+					<p>
+						Eggshell is my personal graphics engine and technical
+						playground. It's a private project built to explore
+						modern rendering techniques, graphics APIs and the
+						problems involved in maintaining a renderer across
+						multiple platforms.
+					</p>
+
+				</div>
+
+
+				<div class="engine-showcase">
+
+					<div class="engine-image">
+
+						<img
+							src="images/EggshellEngine/Eggshell_Sponza_RTShadows.png"
+							alt="Eggshell Engine rendering Sponza with raytraced shadows"
+						>
+
+					</div>
+
+
+					<div class="engine-side">
+
+						<div>
+
+							<h3>
+								Built for
+								<span>experimentation.</span>
+							</h3>
+
+							<p>
+								D3D12 is the primary development target,
+								with Metal and Vulkan implementations following
+								behind.
+
+								The purpose is to have somewhere I can investigate graphics
+								techniques from the ground up aswell as serve as a point of reference.
+							</p>
+
+							<span class="engine-tag">
+								D3D12 / Vulkan / Metal
+							</span>
+
+							<span class="engine-tag">
+								Windows / Linux / macOS
+							</span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<!-- Engine screenshots -->
+
+				<div
+					style="
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                gap:2px;
+                margin-top:2px;
+                background:#222;
+            "
+				>
+
+					<img
+						src="images/EggshellEngine/Eggshell_Sponza_BVH.png"
+						alt="Eggshell Engine BVH rendering"
+						style="width:100%;height:300px;object-fit:cover;"
+					>
+
+					<img
+						src="images/EggshellEngine/Eggshell_Sponza.png"
+						alt="Eggshell Engine Sponza scene"
+						style="width:100%;height:300px;object-fit:cover;"
+					>
+
+					<img
+						src="images/EggshellEngine/Eggshell_Sponza_RTShadows.png"
+						alt="Eggshell Engine raytraced shadows"
+						style="width:100%;height:300px;object-fit:cover;"
+					>
+
+				</div>
+
+
+				<!-- Engine features -->
+
+				<div class="features">
+
+
+					<div class="feature-group">
+
+						<h3>
+							Rendering
+						</h3>
+
+						<ul>
+
+							<li>
+								<strong>Physically Based Renderer</strong>
+								<i><br>- Image Based Lighting</i>
+								<i><br>- Clear coat & clear coat normals</i>
+							</li>
+
+							<li>
+								Fully <strong>bindless</strong> rendering
+							</li>
+
+							<li>
+								<strong>Inline Raytracing</strong>
+								<i><br>- Raytraced ambient occlusion</i>
+								<i><br>- Raytraced shadows</i>
+							</li>
+
+							<li>
+								<strong>GPU-driven</strong> debug line rendering
+							</li>
+
+							<li>
+								<strong>Async compute</strong>
+								<i><br>- Under development for BVH building</i>
+							</li>
+
+						</ul>
+
+					</div>
+
+
+					<div class="feature-group">
+
+						<h3>
+							Toolchain
+						</h3>
+
+						<ul>
+
+							<li>
+								Custom <strong>Universal Shader Compiler</strong>
+								<i><br>- HLSL written once and compiled across APIs</i>
+							</li>
+
+							<li>
+								<strong>TeamCity</strong> build integration
+								<i><br>- Windows & Linux build agents</i>
+							</li>
+
+							<li>
+								<strong>Sharpmake</strong> project generation 
+								<i><br>- Visual Studio 2022 for Windows 11</i>
+								<i><br>- MakeFiles for Linux</i>
+								<i><br>- XCode for MacOS</i>
+							</li>
+
+						</ul>
+
+					</div>
+
+
+					<div class="feature-group">
+
+						<h3>
+							Gfx APIs
+						</h3>
+
+						<ul>
+
+							<li>
+								<strong>D3D12</strong>
+								<i><br>- Utilizing AgilitySDK</i>
+							</li>
+
+							<li>
+								<strong>Vulkan 1.4</strong>
+								<i><br>- W.I.P</i>
+							</li>
+
+							<li>
+								<strong>Metal 3</strong>
+								<i><br>- Metal 4 upgrade W.I.P</i>
+							</li>
+
+						</ul>
+
+					</div>
+
+
+					<div class="feature-group">
+
+						<h3>
+							Platforms
+						</h3>
+
+						<ul>
+							<li><strong>Windows 11</strong></li>
+							<li><strong>Linux</strong></li>
+							<li>
+								<strong>MacOS</strong>
+								<i><br>- M-series Apple silicone</i>
+							</li>
+							<li>
+								<strong>Steam Deck</strong>
+								<i><br>- Via Valve's Proton emulation layer</i>
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+
+				<!-- Future -->
+
+				<div
+					style="
+                margin-top:100px;
+                padding-top:50px;
+                border-top:1px solid #222;
+            "
+				>
+
+					<div class="section-number">
+						CURRENTLY EXPLORING
+					</div>
+
+					<h3
+						style="
+                    margin-top:25px;
+                    font-size:clamp(2rem,4vw,4rem);
+                    letter-spacing:-0.05em;
+                    text-transform:uppercase;
+                "
+					>
+						What's next?
+					</h3>
+
+					<div class="feature-group">
+
+						<h3>
+							Upcomming
+						</h3>
+
+						<ul>
+
+							<li>
+								Denoising Raytraced results
+								<i><br>- Investigate custom Spatiotemportal Variance-Guided Filtering (SVGF)</i>
+							</li>
+
+							<li>
+								Completing the W.I.P on multi-draw indirect
+							</li>
+
+							<li>
+								Directed Acyclic Graph (DAG) frame graph
+								<i><br>- Will drive the async compute implementation</i>
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<!-- =========================================
+             GPU DEBUG LINES
+        ========================================= -->
+
+			<section class="debug-section">
+
+				<div class="section-heading">
+
+					<h2>
+						One API call.<br>
+						<span>Thousands</span> of lines.
+					</h2>
+
+					<span class="section-number">
+						05 / GPU DEBUGGING
+					</span>
+
+				</div>
+
+
+				<div class="debug-grid">
+
+
+					<div class="debug-image">
+
+						<img
+							src="images/EggshellEngine/GPUDebugLines.png"
+							alt="GPU driven debug line rendering"
+						>
+
+					</div>
+
+
+					<div class="debug-copy">
+
+						<h3>
+							GPU-driven
+							debug rendering.
+						</h3>
+
+						<p>
+							One of my favourite little systems in Eggshell is
+							GPU-driven debug line rendering.
+
+							Any shader can allocate a debug line. At the end of
+							rendering, a single ExecuteIndirect call instances
+							the resulting geometry.
+						</p>
+
+						<p>
+							That means thousands of lines can be generated
+							throughout the frame without repeatedly involving
+							the CPU.
+						</p>
+         
+						<pre><code>// Allocate a debug line for each vertex normal
+GPUDebugLine debugLine;
+debugLine.Start = WorldPos.xyz;
+debugLine.End = WorldPos.xyz + (Normal.xyz * 0.2f);
+debugLine.Colour = output.Normal.xyz;
+
+AllocateDebugLine( u_GPUDebugLines, debugLine );</code></pre>
+
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<!-- =========================================
+             PERSONAL
+        ========================================= -->
+
+			<section>
+
+				<div class="section-heading">
+
+					<h2>
+						Outside<br>
+						the GPU
+					</h2>
+
+					<span class="section-number">
+						06 / PERSONAL
+					</span>
+
+				</div>
+
+
+				<div class="personal">
+
+
+					<div class="personal-image">
+
+						<img
+							src="images/SteamGames.png"
+							alt="Favourite games"
+						>
+
+					</div>
+
+
+					<div class="personal-copy">
+
+						<h2>
+							Favourite game genre:
+							<span>Soulslike</span>
+						</h2>
+
+						<p>
+							I'm a huge fan of Soulslike games, with Sekiro:
+							Shadows Die Twice being my favourite.
+						</p>
+
+						<p>
+							Lies of P is a close second. Its atmosphere and setting 
+							is particularly hard to beat in that department.
+						</p>
+
+						<p>
+							And then there's Destiny 2, where I've accumulated
+							over 2,100 hours and completed 8 of the game's
+							solo-flawless dungeons.
+						</p>
+
+						<p>
+							<i>Im also a big cat lover so thats why Stray is there.</i>
+						</p>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+		</main>
+
+
+		<!-- =========================================
+         FOOTER
+    ========================================= -->
+
+		<footer>
+
+			<div>
+
+				<h2>
+					Joe Bevan
+				</h2>
+
+				<p>
+					Graphics Programmer
+				</p>
+
+			</div>
+
+
+			<div class="socials">
+
+				<a
+					href="https://github.com/Joe-Bevan"
+					target="_blank"
+				>
+					GitHub
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/joe-bevan07/"
+					target="_blank"
+				>
+					LinkedIn
+				</a>
+
+			</div>
+
+		</footer>
+
+
+	</body>
+
+</html>

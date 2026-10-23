@@ -1,99 +1,253 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <title>Home</title>
-
-  <link href="StyleSheet.css" rel="stylesheet" />
-  <link href="Content/bootstrap.min.css" rel="stylesheet" />
-  <script src="Scripts/jquery-3.0.0.min.js"></script>
-  <script src="Scripts/bootstrap.min.js"></script>
-
-</head>
-
-<body>
-  <div class="TopBanner">
-    <!--Nav bar-->
-    <div class="jumbotron text-center shadow">
-      <h1>Joe Bevan</h1>
-      <h4>Programmer</h4>
-      <p>C++ / DirectX 11 / OpenGL / C#</p>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <a href="#">
-              <h4>Home</h4>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <a href="Portfolio.html">
-              <h4>Portfolio</h4>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <a href="ContactMe.html">
-              <h4>Contact</h4>
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/index.css"/>
+		<title>Joe Bevan — Graphics Programmer</title>
+	</head>
 
 
-  <div class="Content">
-    <div class="container shadow">
-      <div class="padding row">
-        <!--Who I am-->
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <h3>Who am I?</h3>
-          <p>I'm a programmer currently studying Computer Game Programming at Staffordshire university who has a passion
-            for technology, computer hardware and I'm someone who loves to learn new skills</p>
-          <p>Personally, I see myself as a tough individual who can cope in high-intensity work environments and can
-            pick up new skills quite quickly</p>
-            <br>
-            <h3>Hobbies</h3>
-            <ul>
-              <li>Playing video games</li>
-              <li>Video / image editing</li>
-              <li>Playing with microcontrollers and building small simple systems</li>
-              <li>Recomending computer parts and building PC's</li>
-  
-            </ul>
-        </div>
+	<body>
 
-        <!--What I make-->
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <h3>What do I make?</h3>
-          <p>My university work revolves around alot of engine development mainly using DirectX 11. In my First year, we
-            were taught the basics of C++, introduced to SDL and OpenGL.</p>
-          <p>In my second year we were showed the basics of DirectX 11 development and I created a simple
-            physics engine that supported AABB collision detection and response using Seperated Axis Theory.
-          </p>
-          <p>In my final year, I choose to take the optional module "Advanced Graphics and Real-time rendering". This
-            module
-            taught me how to implement more advanced graphical features like normal maps, parallax mapping, and shadow
-            maps.
-            Along with furthering my understanding of HSLS shader code as we were also taught how to use Hull and Domain
-            shaders
-            for tesselation purposes.
-          </p>
-        </div>
+		<!-- Navigation -->
 
-        <!--Profile picture-->
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
-          <img id="rcorners1" src="Images/Selfie_pfp.jpg" width="250" height="250" alt="A picture of me" />
-        </div>
-      </div>
-    </div>
-  </div>
+		<nav>
+			<a href="#" class="logo">
+				Joe Bevan
+			</a>
+
+			<ul class="nav-links">
+				<li><a href="#work">Work</a></li>
+				<li><a href="aboutMe.html">About</a></li>
+			</ul>
+		</nav>
 
 
-</body>
+		<!-- Hero -->
 
-</html>
+		<header class="hero">
+
+			<div class="hero-content">
+
+				<div class="eyebrow">
+					Graphics Programmer
+				</div>
+
+				<h1>
+					Joe
+					<span>Bevan</span>
+				</h1>
+
+				<div class="hero-bottom">
+
+					<p class="hero-description">
+						Graphics programmer specializing in 
+						multi-platform rendering abstractions & performance.
+					</p>
+
+					<div class="platforms">
+						PlayStation 5<br>
+						Xbox Series S / X<br>
+						Nintendo Switch<br>
+						PC / Steam Deck
+					</div>
+
+				</div>
+
+			</div>
+
+		</header>
+
+
+		<!-- Work -->
+
+		<main id="work">
+
+			<section>
+
+				<div class="section-heading">
+					<h2>Titles shipped</h2>
+					<span class="section-number">01 — 04</span>
+				</div>
+
+
+				<div class="projects">
+
+					<!-- RDR PC -->
+
+					<a
+						class="project"
+						href="https://store.steampowered.com/app/2668510/Red_Dead_Redemption/"
+						target="_blank"
+					>
+
+						<img
+							src="images/ShippedTitles/RDR.jpg"
+							alt="Red Dead Redemption PC"
+						>
+
+						<div class="project-content">
+
+							<div class="project-meta">
+								01 / PC Release
+							</div>
+
+							<h3>
+								Red Dead<br>
+								Redemption (PC)
+							</h3>
+
+							<p class="project-description">
+								Bringing Rockstar's classic open-world adventure
+								to modern PC hardware.
+							</p>
+
+						</div>
+
+					</a>
+
+
+					<!-- LEGO -->
+
+					<a
+						class="project"
+						href="https://store.steampowered.com/app/2950340/LEGO_Harry_Potter_Collection/"
+						target="_blank"
+					>
+
+						<img
+							src="images/ShippedTitles/LHPC.jpg"
+							alt="LEGO Harry Potter Collection"
+						>
+
+						<div class="project-content">
+
+							<div class="project-meta">
+								02 / Multi-platform
+							</div>
+
+							<h3>
+								LEGO Harry<br>
+								Potter
+							</h3>
+
+							<p class="project-description">
+								Years 1–7 brought together for modern console,
+								PC and Steam Deck hardware.
+							</p>
+
+						</div>
+
+					</a>
+
+
+					<!-- AOE -->
+
+					<a
+						class="project"
+						href="https://store.steampowered.com/app/1466860/Age_of_Empires_IV_Anniversary_Edition/"
+						target="_blank"
+					>
+
+						<img
+							src="images/ShippedTitles/AOE4.png"
+							alt="Age of Empires IV"
+						>
+
+						<div class="project-content">
+
+							<div class="project-meta">
+								03 / PC
+							</div>
+
+							<h3>
+								Age of<br>
+								Empires IV
+							</h3>
+
+							<p class="project-description">
+								Graphics and platform work supporting the
+								Sultans Ascend expansion.
+							</p>
+
+						</div>
+
+					</a>
+
+
+					<!-- RDR Console -->
+
+					<a
+						class="project"
+						href="https://store.playstation.com/en-gb/concept/10006164/"
+						target="_blank"
+					>
+
+						<img
+							src="images/ShippedTitles/RDR.jpg"
+							alt="Red Dead Redemption (console)"
+						>
+
+						<div class="project-content">
+
+							<div class="project-meta">
+								04 / Console
+							</div>
+
+							<h3>
+								Red Dead<br>
+								Redemption (Consoles)
+							</h3>
+
+							<p class="project-description">
+								Bringing the experience to Nintendo Switch,
+								PlayStation 4 and PlayStation 5.
+							</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+			</section>
+		</main>
+
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div>
+
+				<h2>
+					Joe Bevan
+				</h2>
+
+				<p>
+					Graphics Programmer
+				</p>
+
+			</div>
+
+
+			<div class="socials">
+
+				<a
+					href="https://github.com/Joe-Bevan"
+					target="_blank"
+				>
+					GitHub
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/joe-bevan07/"
+					target="_blank"
+				>
+					LinkedIn
+				</a>
+
+			</div>
+
+		</footer>
