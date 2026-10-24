@@ -131,7 +131,7 @@ nav {
 
 .hero h1 span {
     display: block;
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .hero-bottom {
@@ -267,7 +267,7 @@ section {
     letter-spacing: 0.18em;
     text-transform: uppercase;
 
-    color: #a8ff00;
+    color: rgb(255, 255, 255);
 }
 
 .project h3 {
@@ -315,7 +315,7 @@ section {
 }
 
 .statement h2 span {
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .statement p {

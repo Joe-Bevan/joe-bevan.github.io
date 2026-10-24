@@ -123,7 +123,7 @@ nav {
     letter-spacing: 0.25em;
     text-transform: uppercase;
 
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .hero h1 {
@@ -138,7 +138,7 @@ nav {
 
 .hero h1 span {
     display: block;
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .hero-description {
@@ -217,7 +217,7 @@ section {
 }
 
 .philosophy h2 span {
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .philosophy p {
@@ -262,7 +262,7 @@ section {
 
     letter-spacing: -0.05em;
 
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .number span {
@@ -303,7 +303,7 @@ section {
 
     letter-spacing: 0.2em;
 
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .tool h3 {
@@ -396,7 +396,7 @@ section {
 .engine-side h3 span {
     display: block;
 
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .engine-side p {
@@ -450,7 +450,7 @@ section {
 .feature-group h3::before {
     content: "— ";
 
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .feature-group ul {
@@ -579,7 +579,7 @@ code {
 }
 
 .personal-copy h2 span {
-    color: #a8ff00;
+    color: rgb(0, 55, 146);
 }
 
 .personal-copy p {
