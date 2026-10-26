@@ -46,10 +46,16 @@
 				</h1>
 
 				<p class="hero-description">
-					I like getting uncomfortably close to the hardware.
-					Rendering, GPU performance, writing platform abstractions, shader compilation and the
-					challenges that appear when you push a rendering
-					pipeline hard are where I feel most at home.
+					Graphics programmer with over four years of industry experience, 
+					specialising in rendering APIs for the PS5 and other 9th generation consoles. 
+					<br>
+					In this time, I have shipped:
+					<ul class="tool-list">
+						<li>- Age of Empires IV: The Sultans Ascend</li>
+						<li>- Red Dead Redemption for consoles</li>
+						<li>- Lego Harry Potter Collection</li>
+						<li>- Red Dead Redemption for PC</li>
+					</ul>
 				</p>
 
 			</div>
@@ -59,52 +65,19 @@
 
 		<main>
 
-
-			<!-- =========================================
-             PHILOSOPHY
-        ========================================= -->
-
-			<section class="philosophy">
-
-				<div class="philosophy-inner">
-
-					<div class="section-number">
-						02 / THE CRAFT
-					</div>
-
-					<h2>
-						Knowing
-						<span>why</span>
-						it works.
-					</h2>
-
-					<p>
-						I enjoy writing pretty shaders and building rendering
-						features, but the part of graphics programming that
-						really hooks me is understanding what happens underneath.
-
-						Stepping through shader assembly. Investigating GPU
-						crashes. Finding a few milliseconds that can be
-						eliminated. Understanding how different platforms behave
-						under the same workload. Writing clean and consistant platform abstractions.
-
-						That low-level side of graphics is where I do my best work.
-					</p>
-
-				</div>
-
-			</section>
-
-
-			<!-- =========================================
+		<!-- =========================================
              NUMBERS
         ========================================= -->
 
 			<div class="numbers">
 
 				<div class="number">
-					<strong>4+</strong>
-					<span>Shipped titles</span>
+					<strong>4</strong>
+					<span>
+						Shipped titles<br>
+						with more titles yet to be announced
+					</span>
+					
 				</div>
 
 				<div class="number">
@@ -113,8 +86,11 @@
 				</div>
 
 				<div class="number">
-					<strong>6</strong>
-					<span>Modern graphics APIs (inc. Console NDA APIs)</span>
+					<strong>5</strong>
+					<span>
+						Modern graphics APIs<br>
+						(including NDA Console APIs)
+					</span>
 				</div>
 
 			</div>
@@ -156,7 +132,7 @@
 							<li>PIX</li>
 							<li>NVIDIA Nsight</li>
 							<li>RenderDoc</li>
-							<li>9<sup>th</sup> generation console graphics debuggers</li>
+							<li>All 9<sup>th</sup> generation console graphics debuggers</li>
 							<li>NVIDIA ICAT</li>
 							<li>GPU crash investigation (Nvidia Nsight, AMD RGD, DRED...)</li>
 						</ul>
@@ -176,8 +152,10 @@
 
 						<ul class="tool-list">
 							<li>Superluminal</li>
-							<li>GPU timing, traces & analysis (PIX, Nsight, Console profiling tools)</li>
-							<li>A/B image comparison</li>
+							<li>Very Sleepy (CPU profiler)</li>
+							<li>NVIDIA Nsight GPU traces</li>
+							<li>AMD Radeon GPU Profiler (RGP)</li>
+							<li>All 9<sup>th</sup> generation console profiling tool suite</li>
 						</ul>
 
 					</div>
@@ -194,13 +172,11 @@
 						</h3>
 
 						<ul class="tool-list">
-
-							<li>Visual Studio</li>
-							<li>VS Code</li>
 							<li>Git / Perforce / SVN</li>
 							<li>Sharpmake / Premake</li>
-							<li>TeamCity</li>
-
+							<li>TeamCity CI/CD</li>
+							<li>Visual Studio</li>
+							<li>VS Code</li>
 						</ul>
 
 					</div>
@@ -504,14 +480,17 @@
 						</h3>
 
 						<ul>
+							<li>
+								Completing the W.I.P on multi-draw indirect
+							</li>
+
+							<li>
+								Rendering the scene into the IBL probes and not just the HDRI environment map
+							</li>
 
 							<li>
 								Denoising Raytraced results
 								<i><br>- Investigate custom Spatiotemportal Variance-Guided Filtering (SVGF)</i>
-							</li>
-
-							<li>
-								Completing the W.I.P on multi-draw indirect
 							</li>
 
 							<li>
@@ -578,9 +557,8 @@
 						</p>
 
 						<p>
-							That means thousands of lines can be generated
-							throughout the frame without repeatedly involving
-							the CPU.
+							This means thousands of lines can be generated
+							throughout the frame with very little CPU involement.
 						</p>
          
 						<pre><code>// Allocate a debug line for each vertex normal
@@ -591,7 +569,13 @@ debugLine.Colour = output.Normal.xyz;
 
 AllocateDebugLine( u_GPUDebugLines, debugLine );</code></pre>
 
-
+						<p><br>
+							The beauty of lines is, like triangles being the smallest primitive used for rendering, you can make anything from lines.
+							As a result the system is designed to be easily expandable to add features like: 
+						</p>
+						<pre><code>AllocateDebugSquare( ); // Internally just calls AllocateDebugLine() 4 times
+AllocateDebugCube( )
+AllocateDebugCameraFrustrum( )</code></pre>
 					</div>
 
 				</div>
@@ -652,7 +636,7 @@ AllocateDebugLine( u_GPUDebugLines, debugLine );</code></pre>
 						<p>
 							And then there's Destiny 2, where I've accumulated
 							over 2,100 hours and completed 8 of the game's
-							solo-flawless dungeons.
+							dungeons solo-flawless.
 						</p>
 
 						<p>
