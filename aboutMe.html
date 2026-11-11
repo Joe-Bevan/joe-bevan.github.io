@@ -194,13 +194,12 @@
 
 						<ul class="tool-list">
 
-							<li>HLSL</li>
-							<li>Physically based rendering</li>
-							<li>Bindless rendering</li>
+							<li>Inline Raytracing</li>
 							<li>GPU-driven rendering</li>
-							<li>Colour management & OCIO</li>
+							<li>Bindless rendering</li>
 							<li>Async compute</li>
-							<li>AMD vs NVIDIA discrepancies</li>
+							<li>Physically based rendering</li>
+							<li>Colour management & OCIO</li>
 
 						</ul>
 
@@ -334,15 +333,8 @@
 						</h3>
 
 						<ul>
-
 							<li>
-								<strong>Physically Based Renderer</strong>
-								<i><br>- Image Based Lighting</i>
-								<i><br>- Clear coat & clear coat normals</i>
-							</li>
-
-							<li>
-								Fully <strong>bindless</strong> rendering
+								<strong>Full bindless</strong> rendering
 							</li>
 
 							<li>
@@ -352,12 +344,26 @@
 							</li>
 
 							<li>
+								<strong>BVH Compaction</strong> reduce memory footprint of raytrace acceleration structures
+							</li>
+
+							<li>
 								<strong>GPU-driven</strong> debug line rendering
+							</li>
+
+							<li>
+								<strong>Multi-Draw Indirect</strong>
 							</li>
 
 							<li>
 								<strong>Async compute</strong>
 								<i><br>- Under development for BVH building</i>
+							</li>
+
+							<li>
+								<strong>Physically Based Renderer</strong>
+								<i><br>- Image Based Lighting</i>
+								<i><br>- Clear coat & clear coat normals</i>
 							</li>
 
 						</ul>
@@ -434,7 +440,7 @@
 							<li><strong>Linux</strong></li>
 							<li>
 								<strong>MacOS</strong>
-								<i><br>- M-series Apple silicone</i>
+								<i><br>- M-series Apple silicon</i>
 							</li>
 							<li>
 								<strong>Steam Deck</strong>
@@ -480,10 +486,6 @@
 						</h3>
 
 						<ul>
-							<li>
-								Completing the W.I.P on multi-draw indirect
-							</li>
-
 							<li>
 								Rendering the scene into the IBL probes and not just the HDRI environment map
 							</li>
